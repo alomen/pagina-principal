@@ -1,0 +1,143 @@
+header {
+    background-image: url("../images/ad-proy-6.jpg");
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    
+}
+
+.container {
+    padding-right: 5px;
+    padding-left: 5px;
+    max-width: 1170px;
+  }
+  .row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  /* Row Clear Float*/
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  [class*='col-'] {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+.general {
+    list-style-type: disc;
+    text-decoration: none;
+    border: 0px;
+    font-style: normal;
+}
+.general li a {
+    display: inline-block;
+}
+.general li {
+    border-bottom: none;
+    text-align: left;
+}
+.educacion {
+    text-align: center;
+    clear: both;
+    
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.col-cert {
+    text-align: justify; 
+}
+
+label {
+    border: none;
+}
+
+progress {
+    display: table;
+}
+
+.contacto {
+    text-align: center;
+    clear: both;
+    background: lightgrey;
+    color: blue;
+}
+
+.contacto a {
+    text-align: left;
+}
+div.example1 >img {
+	background: #69F;
+	width: 20em;
+	height: 20em;
+  border-radius: 10em;
+  margin-top: 15%;
+} 
+.hace {
+    display: inline;
+}
+ol, ul {
+    text-align: left;
+}
+.certifica img {
+    width: 50%;
+}
+
+
+/*MEDIA QUERY PARA CAMBIAR TAMANO PARA MOVIL*/
+@media (min-width: 48em) {
+    [class*='col-'] {
+      float: left;
+      margin: 1% 0%;
+      text-align: left;
+    }
+    /* Column Two Thirds */
+    .col-2-3 {
+      width: 66.6666%;
+    }
+    /* Column Third */
+    .col-1-3 {
+      width: 30%;
+      text-align: left;
+      
+    }
+    .col-1-2{
+        width: 50%;
+    }
+    .col-middle {
+        width: 25%;
+    }
+    .col-table {
+        width: 93%;
+        text-align: left;
+    }
+    .col-cert{
+        width: 46%;
+        text-align: left;
+    }
+    .col-1-4 {
+        width: 20%;
+        text-align: left;
+    }
+
+    .col-1 {
+        width: 88%;
+        text-align: left;
+    }
+  .educacion {
+
+    background: lightgoldenrodyellow;
+  }
+  
+  .certifica img {
+    width: 80%;
+}
+}
+/*TERMINA MEDIA QUERY*/
